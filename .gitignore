@@ -1,0 +1,23 @@
+# ignore virtual environment
+venv/
+.env/
+
+# ignore model weights or ONNX files
+models/
+*.onnx
+*.pt
+*.bin
+
+# ignore output files and logs
+out/
+logs/
+*.jsonl
+*.csv
+
+# bytecode / cache
+__pycache__/
+*.pyc
+
+# system junk
+.DS_Store
+Thumbs.db
